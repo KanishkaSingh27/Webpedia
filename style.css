@@ -4,9 +4,8 @@ body{
   background: linear-gradient(-45deg, #005266,#0e5c71, #1cb5e0, #a1dbff);
   background-size: 400% 100%;
   animation: gradient 15s ease infinite;
-  height: 700px;
-  background-repeat: no-repeat;
-    max-height:100px;
+  height: 800px;
+  background-repeat:no-repeat;
 }
 
 @keyframes gradient {
@@ -41,7 +40,7 @@ background-color:rgba(255,255,255,.8);
   margin: 20px auto;
   text-align: center;
   display: inline-grid;
-  margin-top: 800px;
+  margin-top: 950px;
   grid-template-columns: auto auto auto;
 }
 button {
