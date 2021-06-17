@@ -52,7 +52,7 @@ a.left:before {
   width: 17px;
   height: 3px;
   bottom: 0;
-  left: 13px;
+  left: 15px;
   background-color: white;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
