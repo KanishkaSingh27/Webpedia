@@ -41,6 +41,29 @@ a{
 a:hover{
   color: dodgerblue;
 }
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  bottom: 0;
+  left: 16px;
+  background-color: white;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 15px;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 71%;
+  align-items: center;
+}
 b{
   font-size: 25px;
 }
