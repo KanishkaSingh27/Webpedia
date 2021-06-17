@@ -49,14 +49,14 @@ a.left
 a.left:before {
   content: "";
   position: absolute;
-  width: 17px;
+  width: 19px;
   height: 3px;
   bottom: 0;
-  left: 14.5px;
+  left: 14.2px;
   background-color: white;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 14px;
+  margin-bottom: 13px;
 }
 
 a.left:hover:before {
