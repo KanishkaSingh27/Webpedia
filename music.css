@@ -52,11 +52,11 @@ a.left:before {
   width: 17px;
   height: 3px;
   bottom: 0;
-  left: 14px;
+  left: 14.5px;
   background-color: white;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 a.left:hover:before {
