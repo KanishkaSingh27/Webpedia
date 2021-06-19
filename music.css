@@ -100,3 +100,6 @@ hr{
 #myBtn:hover {
   background-color: rgb(255, 0, 149); /* Add a dark-grey background on hover */
 }
+.up{
+margin-bottom: 20px;
+}
