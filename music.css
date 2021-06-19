@@ -93,6 +93,8 @@ hr{
   padding: 15px; /* Some padding */
   border-radius: 5px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  align-items: center;
+  height: 40px;
 }
 
 #myBtn:hover {
