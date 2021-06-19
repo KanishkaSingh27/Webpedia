@@ -90,7 +90,7 @@ hr{
   background-color: rgb(0, 217, 255); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 20px; /* Some padding */
+  padding: 10px; /* Some padding */
   border-radius: 5px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   
