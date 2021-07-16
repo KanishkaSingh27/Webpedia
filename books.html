@@ -15,19 +15,50 @@
         <a href="#" class="left">Shopping</a>
         <a href="#" class="left">Movies</a>
         <a href="#" class="active" class="left">Books</a>
-        <a href="#" class="left">Music</a>
+        <a href="music.html" class="left">Music</a>
         <a href="index.html" class="left">Home</a>
         <img src="logo.png" class="Webpedia">
     </div>
-        <a href="https://www.gutenberg.org/" target="_blank" rel="noopener noreferrer">
+        
            <img src="gutenberg.png" class="logo" width="300px">
            <p><b>1. Project Gutenberg</b>
         </a><br>
     Project Gutenberg is a mother of all ebook sites.&nbsp;Many sites that offer free ebooks from the public domain
          use the titles created and uploaded to Project Gutenberg. &nbsp;Currently, there are over 60,000 public domain 
          books in the catalog. If you’re looking for great classic books, Project Gutenberg is the best destination
-         to explore.</a></p>
-         <br>
+         to explore.&nbsp;Choose among free epub and Kindle eBooks, download them or read them online. 
+         You will find the world’s great literature here, with focus on older works for which U.S. copyright 
+         has expired. Thousands of volunteers digitized and diligently proofread the eBooks, for you to 
+         enjoy.</a>
+         <a href="https://www.gutenberg.org/" target="_blank" rel="noopener noreferrer">
+         <div class="frame">
+             <button class="custom-btn btn-6"><span>View Site</span></button>
+            </div></a>
+        </p>
          <hr>
+         <button onclick="topFunction()" id="myBtn" title="Go to top"><i data-feather="chevron-up" class="up"></i></button>
+         <script>
+           feather.replace()
+         </script>
+         <script>
+           mybutton = document.getElementById("myBtn");
+         
+         
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0; // For Safari
+           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+         }
+         </script>
 </body>
 </html>
