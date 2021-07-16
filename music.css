@@ -9,7 +9,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-
+  margin-bottom: 30px;
 }
 
 .topnav a {
@@ -68,7 +68,7 @@ b{
   font-size: 25px;
 }
 p{
-  padding: 35px;
+  padding: 25px;
 }
 hr{
   margin: 20px;
@@ -103,3 +103,62 @@ hr{
 .up{
 margin-bottom: 20px;
 }
+.frame {
+  width: 50%;
+  margin: 0px auto;
+  text-align: left;
+  margin-left:340px ;
+}
+button {
+  margin: 0px;
+}
+.custom-btn {
+  width: 180px;
+  font-size: 18px;
+  height: 50px;
+  color: #fff;
+  border-radius: 9px;
+  padding: 10px 25px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-6 {
+  background: #02a1fd;
+  border: none;
+  z-index: 1;
+}
+.btn-6:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 9px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-6:hover {
+  color: #fff;
+}
+.btn-6:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-6:active {
+  top: 2px;
+}
+
